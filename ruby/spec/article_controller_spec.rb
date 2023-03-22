@@ -1,4 +1,3 @@
-require 'rspec/autorun'
 require 'dotenv'
 require_relative '../app/controllers/articles'
 

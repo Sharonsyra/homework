@@ -21,4 +21,3 @@ Article.create(:title => 'Title ZFX', :content => 'Some Blog Post', :created_at 
 Article.create(:title => 'Title YNN', :content => 'O_O_Y_O_O', :created_at => Time.now)
 
 puts "Article count in DB: #{Article.count}"
-
