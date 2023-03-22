@@ -7,7 +7,7 @@ class ArticleController
     new_article = Article.new(:title => article['title'], :content => article['content'], :created_at => Time.now)
     new_article.save
 
-    { ok: true , obj: article }
+    { ok: true , obj: new_article }
   rescue StandardError
     { ok: false }
   end
