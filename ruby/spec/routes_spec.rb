@@ -137,7 +137,6 @@ describe CommentRoutes do
     it 'checks response status and body' do
       expect(response.status).to eq 200
       hashed_response = JSON.parse(response.body)
-      puts hashed_response
       expect(hashed_response).to have_key('comments')
       expect(hashed_response['comments'].length).to eq(1)
     end
