@@ -1,3 +1,4 @@
 *lock
 .ruby-env
 .ruby-version
+.env*
